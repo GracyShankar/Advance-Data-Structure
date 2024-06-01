@@ -1,0 +1,21 @@
+class Updating{
+    public static void main (String[] args) {
+   int[] myArr = new int[5];
+   myArr[0]=5;
+   myArr[1]=1;
+   myArr[2]=4;
+   myArr[3]=2;
+   myArr[4]=10;
+   myArr[2]=9;
+   for(int i=0 ; i<5 ; i++){
+       System.out.println(myArr[i] );
+   }
+
+   System.out.println("lenght of an array = " + myArr.length);
+   System.out.println(myArr[myArr.length -1] + "element of length-1 index");
+        int arr[]={5,1,5,36,};
+       for(int i=0 ; i<4;i++){
+           System.out.print(arr[i]);
+       }
+    }
+}
